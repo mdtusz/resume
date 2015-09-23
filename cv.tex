@@ -1,0 +1,117 @@
+\documentclass[notitlepage,oneside,draft]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[document]{ragged2e}
+\usepackage{geometry}
+\usepackage{multicol}
+\usepackage{color}
+\usepackage{array}
+
+\geometry{
+ a4paper,
+ total={210mm,297mm},
+ left=20mm,
+ right=20mm,
+ top=20mm,
+ bottom=20mm,
+}
+\pagenumbering{gobble}
+\frenchspacing
+\title{Curriculum Vitae}
+\author{Miklós Tusz}
+\date{2015-09-22}
+
+\begin{document}
+\begin{flushleft}
+
+  \Huge
+  \textbf{Miklós Tusz}
+
+  \small
+
+  \begin{multicols}{2}
+
+    \begin{flushleft}
+      \textbf{City:} Montreal, QC \\
+      \textbf{Phone:} 514-458-6468 \\
+      \textbf{Email:} mdtusz@gmail.com \\
+    \end{flushleft}
+
+    \begin{flushright}
+      \textbf{Github:} mdtusz \\
+      \textbf{Blog:} miklostusz.com \\
+    \end{flushright}
+
+  \end{multicols}
+
+  \rule{\textwidth}{1pt}\\[6pt]
+
+  \large
+  \textbf{Education} \\
+  \vspace{12pt}
+  \normalsize
+  \begin{tabular}{ p{86pt} | l  }
+    2010 - 2015 & \textbf{Concordia University} \\
+    & Major Economics \\
+    & Minor Computer Science \\
+    & \\
+    2005 - 2009 & \textbf{St. Michaels University School} \\
+  \end{tabular}
+  \vspace{24pt}
+
+
+  \large
+  \textbf{Experience} \\
+  \vspace{12pt}
+  \normalsize
+  \begin{tabular}{ p{86pt} | l}
+    January 2015 - & \textbf{Freelance Development} \\
+    Present & • Create HTML emails for IATA (International Air Transport Authority) (ongoing) \\
+    & • Develop data API for cheaptickets.ca and etickets.ca (in progress) \\
+    & • Developed PDF Generator for the Bank of Montreal internal use \\
+    & \\
+    May 2014 - May & \textbf{Backend Developer} at Kreate Solutions \\
+    2015 & • Created RESTful api for consumption by mobile clients \\
+    & • Managed deployments using Docker and AWS \\
+    & • Migrated user data from old to new schemas and servers \\
+    & \\
+    Summer 2009 - & \textbf{Sailing Program Coordinator} at the Royal Victoria Yacht Club \\
+    2010 & • Automated email newsletters for registration and course schedules \\
+    & • Scheduled staff, train employees, and general management \\
+    & • Created marketing materials \\
+    & \\
+    Summer 2007 - & \textbf{Sailing Instructor} at the Royal Victoria Yacht Club \\
+    2008 & • Instructed classes of up to 12 students ages 3+ \\
+    & • Repaired boats and equipment using composite materials \\
+    & • Conducted on water rescues during rough weather conditions \\
+  \end{tabular}
+  \vspace{24pt}
+
+
+  \large
+  \textbf{Skills} \\
+  \vspace{12pt}
+  \normalsize
+  \begin{tabular}{ p{86pt} | l  }
+    Languages & HTML, CSS/SASS, Javascript/Node (very comfortable) \\
+    & PHP (comfortable) \\
+    & Haskell, Elm, Python (still learning) \\ 
+    & Rust, C++, Java (enough to follow along in a conversation) \\
+    & \\
+    Frameworks and & Express, Hapi, Mithril, jQuery (very comfortable) \\
+    Libraries & Ember, Angular, React, d3 (still learning) \\
+    & \\
+    Databases & Postgres, MySQL, MongoDB, LevelDB \\
+    & \\
+    Tools etc. & *nix, Git, Webpack, Gulp, Docker, AWS
+  \end{tabular}
+  \vspace{24pt}
+
+  
+  \large
+  \textbf{References}
+  \normalsize
+  available upon request
+
+\end{flushleft}
+\end{document}
